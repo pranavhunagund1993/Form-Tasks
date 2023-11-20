@@ -1,0 +1,132 @@
+<html>
+    <head>
+        <title>Payment Details Form</title>
+    </head>
+
+    <body>
+        <form action="">
+                <table border="2" cellpadding="15">
+                    <h3>Step 1: Your Details</h3>
+    
+                    <tr>
+                        <td>
+                            <label for="">Name</label>
+                        </td>
+    
+                        <td>
+                            <input type="text" placeholder="First and last name" name="flName" id="flName">
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td>
+                            <label for="">Email</label>
+                        </td>
+    
+                        <td>
+                            <input type="email" placeholder="example@domain.com" name="email" id="email">
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td>
+                            <label for="">Phone</label>
+                        </td>
+    
+                        <td>
+                            <input type="number" placeholder="Eg. +44750000000" name="phone" id="phone">
+                        </td>
+                    </tr>
+                </table>
+    
+                <table border="2" cellpadding="9">
+                    <h3>Step 2 : Delivery address</h3>
+    
+                    <tr>
+                        <td>
+                            <label for="">Address</label>
+                        </td>
+                        <td>
+                            <textarea name="address" id="address" cols="20" rows="10"></textarea>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td>
+                            <label for="">Post Code</label>
+                        </td>
+                        <td>
+                            <input type="number" name="postCode" id="postCode">
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td>
+                            <label for="">Country</label>
+                        </td>
+                        <td>
+                            <input type="text" name="country" id="country">
+                        </td>
+                    </tr>
+                </table>
+    
+                <table border="2" cellpadding="5" cellspacing="5">
+                    <h3>Step 3 : Card Details</h3>
+    
+                    <tr>
+                        <td colspan="2">
+                            <label for="">Card Type</label>
+
+                            <table>
+                                <tr>
+                                    <td>
+                                        <input type="radio" name="debitCard" id="visa">VISA
+                                    </td>
+                
+                                    <td>
+                                        <input type="radio" name="debitCard" id="amEx">AmEx
+                                    </td>
+                
+                                    <td>
+                                        <input type="radio" name="debitCard" id="mastercard">Mastercard
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td>
+                            <label for="">Card Number</label>
+                        </td>
+    
+                        <td>
+                            <input type="number" name="cardNumber" id="cardNumber">
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td>
+                            <label for="">Security code</label>
+                        </td>
+    
+                        <td>
+                            <input type="number" name="securityCode" id="securityCode">
+                        </td>
+                    </tr>
+    
+                    <tr>
+                        <td>
+                            <label for="">Name on card</label>
+                        </td>
+    
+                        <td>
+                            <input type="text" name="nameOnCard" id="nameOnCard" placeholder="Exact name as on card">
+                        </td>
+                    </tr>
+                </table>
+
+                <br><input type="submit" value="BUY IT">
+        </form>
+    </body>
+</html>
